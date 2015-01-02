@@ -1,0 +1,7 @@
+<uwsgi>
+    <socket>8077</socket>
+    <chdir>/home/tyan/python/stockPredict/</chdir>
+    <module>django_wsgi</module>
+    <processes>1</processes> <!-- 进程数 -->
+    <daemonize>uwsgi.log</daemonize>
+</uwsgi>
