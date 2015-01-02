@@ -1,5 +1,6 @@
 TyanStockPredict
 ================
+!!IS DEMO
 数据库：MySQL<br>
 前后端分离<br>
 前端使用Angular<br>
