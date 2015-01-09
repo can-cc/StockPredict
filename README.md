@@ -11,4 +11,7 @@ IS DEMO<br>
 2.获取热门股票<br>
 3.关注股票<br>
 3.用户系统<br>
-数据传输：JSON
+数据传输：JSON<br>
+
+Todo:<br>
+数据仓库
