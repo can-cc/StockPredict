@@ -1,0 +1,22 @@
+<table class="table table-bordered">
+  <tr>
+    <td>Symbol</td>
+    <td>SE</td>
+    <td>predict</td>
+    <td>adjClose</td>
+    <td>timeOutAdjClose</td>
+    <td>earnings</td>
+    <td>predictRst</td>
+    <td>predictExpTime</td>
+  </tr>
+  <tr ng-repeat="stat in stats">
+    <td><a href='#/view/{{hotStock.id}}'>{{stat.stock.symbol}}</a></td>
+    <td>{{stat.stock.SE}}</td>
+    <td>{{stat.predict}}</td>
+    <td>{{stat.adjClose}}</td>
+    <td>{{stat.timeOutAdjClose}}</td>
+    <td>{{stat.earnings}}</td>
+    <td>{{stat.predictRst}}</td>
+    <td>{{stat.predictExpTime}}</td>
+  </tr>
+</table>

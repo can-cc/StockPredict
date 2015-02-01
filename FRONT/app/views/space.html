@@ -1,0 +1,79 @@
+<div class="text-left" ng-show="loginShow">
+    <div id="div_id_username" class="clearfix control-group ">
+      <div class="form-group">
+        <label for="id_username">Username:</label>
+        <input name="username" maxlength="100" autocapitalize="off" autocorrect="off" class="form-control textinput textInput" id="id_username" required="" type="text" ng-model="username">
+
+      </div>
+    </div>
+    <div id="div_id_password" class="clearfix control-group ">
+      <div class="form-group">
+        <label for="id_password">Password:</label>
+        <input name="password" maxlength="100" autocapitalize="off" autocorrect="off" class="form-control textinput textInput" id="id_password" required="" type="password" ng-model="password">
+
+      </div>
+    </div>
+
+    <div class="form-actions-no-box">
+      <input name="submit" value="Log in" class="btn btn-primary form-control" id="submit-id-submit" type="button" ng-click="login(username, password)">
+    </div>
+  <div ng-show="errorWarn">
+    <br>
+    <div class="alert alert-warning alert-dismissible" role="alert">
+      <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span
+        class="sr-only">Close</span></button>
+      <strong>Warning!</strong> Login in Error! Check yourself!
+    </div>
+  </div>
+</div>
+<div ng-show="userInfo">
+  <p class="text-center"><h3><p class="text-left"><span class="label label-primary">User Information</span></p></h3></p>
+  <br>
+  <table class="table text-justify table-bordered">
+    <tr>
+      <td>ID:</td>
+      <td><input type="text" value={{userProfile.user.id}} readonly="true"></td>
+    </tr>
+    <tr>
+      <td>UserName:</td>
+      <td><input type="text" value={{userProfile.user.username}} readonly="true"></td>
+    </tr>
+    <tr>
+      <td>FirstName:</td>
+      <td><input type="text" value={{userProfile.user.first_name}} readonly={{readOnly}}></td>
+    </tr>
+    <tr>
+      <td>LastName:</td>
+      <td><input type="text" value={{userProfile.user.last_name}} readonly={{readOnly}}></td>
+    </tr>
+    <tr>
+      <td>NickName:</td>
+      <td><input type="text" value={{userProfile.nickName}} readonly="true"></td>
+    </tr>
+    <tr>
+      <td>SelfDescription:</td>
+      <td><input type="text" value={{userProfile.selfDescription}} readonly="true"></td>
+    </tr>
+    <tr>
+      <td>Hometown:</td>
+      <td><input type="text" value={{userProfile.hometown}} readonly="true"></td>
+    </tr>
+    <tr>
+      <td>NowCity:</td>
+      <td><input type="text" value={{userProfile.nowCity}} readonly="true"></td>
+    </tr>
+    <tr>
+      <td>DateJoined:</td>
+      <td><input type="text" value={{userProfile.user.date_joined}} readonly="true"></td>
+    </tr>
+  </table>
+  <p class="text-right"><button type="button" class="btn btn-primary text-right">Modification</button><br><br></p>
+</div>
+
+<div ng-show="userPrediction">
+  <table class="table table-hover">
+    ...
+  </table>
+</div>
+
+

@@ -1,0 +1,2 @@
+python manage.py celery worker -B
+

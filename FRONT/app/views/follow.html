@@ -1,0 +1,18 @@
+<table class="table table-bordered">
+  <tr>
+    <td>symbol</td>
+    <td>id</td>
+    <td>stockName</td>
+    <td>sector</td>
+    <td>industry</td>
+    <td>SE</td>
+  </tr>
+  <tr ng-repeat="follow in follows">
+    <td><a href='#/view/{{hotStock.id}}'>{{follow.stock.symbol}}</a></td>
+    <td>{{follow.stock.id}}</td>
+    <td>{{follow.stock.stockName}}</td>
+    <td>{{follow.stock.sector}}</td>
+    <td>{{follow.stock.industry}}</td>
+    <td>{{follow.stock.SE}}</td>
+  </tr>
+</table>

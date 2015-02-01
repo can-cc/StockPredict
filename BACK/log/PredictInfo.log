@@ -1,0 +1,817 @@
+2015-01-30 13:13:34.267707 BABA request predict
+2015-01-30 13:13:34.272128 BABA predict is alreadly in queue!
+2015-01-30 13:13:59.441859 BABA request predict
+2015-01-30 13:13:59.445818 BABA predict is alreadly in queue!
+INFO 2015-01-30 13:15:07,613 views 13895 139919879591680 2015-01-30 13:15:07.613236 BABA request predict
+INFO 2015-01-30 13:15:07,617 views 13895 139919879591680 2015-01-30 13:15:07.617314 BABA predict is alreadly in queue!
+INFO 2015-01-30 13:15:26,801 views 13926 140194641282816 2015-01-30 13:15:26.801698 BABA request predict
+INFO 2015-01-30 13:15:26,805 views 13926 140194641282816 2015-01-30 13:15:26.805808 BABA predict is alreadly in queue!
+INFO 2015-01-30 13:17:14,121 views 13926 140194641282816 2015-01-30 13:17:14.121513 BABA request predict
+INFO 2015-01-30 13:17:14,138 views 13926 140194641282816 2015-01-30 13:17:14.138833 BABA predict is alreadly in queue!
+INFO 2015-01-30 13:25:13,784 views 14701 140234968291072 2015-01-30 13:25:13.784115 BABA request predict
+INFO 2015-01-30 13:28:24,650 views 15212 140125373445888 2015-01-30 13:28:24.649981 BABA request predict
+INFO 2015-01-30 13:28:24,653 views 15212 140125373445888 2015-01-30 13:28:24.653230 BABA in db!
+INFO 2015-01-30 13:29:37,819 views 15364 140590953088768 2015-01-30 13:29:37.819922 BABA request predict
+INFO 2015-01-30 13:29:37,825 views 15364 140590953088768 2015-01-30 13:29:37.825590 BABA 10 day prediction in db!
+INFO 2015-01-30 13:38:24,069 views 17314 140229701007104 2015-01-30 13:38:24.069939 BABA request predict
+INFO 2015-01-30 13:38:24,075 views 17314 140229701007104 2015-01-30 13:38:24.075208 BABA 10 day prediction in db!
+INFO 2015-01-30 13:39:30,288 views 17409 140035157862144 2015-01-30 13:39:30.288451 BABA request predict
+INFO 2015-01-30 13:39:30,293 views 17409 140035157862144 2015-01-30 13:39:30.293368 BABA 10 day prediction in db!
+INFO 2015-01-30 13:39:33,628 views 17409 140034917263104 2015-01-30 13:39:33.628002 BABY request predict
+INFO 2015-01-30 13:49:57,760 views 18307 140103886243584 2015-01-30 13:49:57.760360 BABY request predict
+INFO 2015-01-30 13:50:12,934 views 18347 139868793288448 2015-01-30 13:50:12.934786 BABY request predict
+ERROR 2015-01-30 13:50:12,940 base 18347 139868793288448 Internal Server Error: /stockPrediction/BABY
+Traceback (most recent call last):
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 407, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 404, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/tyan/project/StockPredict/BACK/predictCenter/views.py", line 80, in get
+    cacheP = stock.prediction.all()[0]
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/db/models/query.py", line 177, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+INFO 2015-01-30 13:55:01,337 views 18814 140245873129216 2015-01-30 13:55:01.337625 BABY request predict
+INFO 2015-01-30 13:55:01,342 views 18814 140245873129216 2015-01-30 13:55:01.342301 Prepare predict BABY
+INFO 2015-01-30 13:57:25,068 views 19181 139891165902592 2015-01-30 13:57:25.068624 BABY request predict
+INFO 2015-01-30 13:57:25,074 views 19181 139891165902592 2015-01-30 13:57:25.074825 BABY 10 day prediction in db!
+ERROR 2015-01-30 13:57:25,077 views 19181 139891165902592 2015-01-30 13:57:25.077374 BABY predict control error!
+INFO 2015-01-30 13:57:26,574 views 19181 139891141154560 2015-01-30 13:57:26.574307 BABY request predict
+INFO 2015-01-30 13:57:26,583 views 19181 139891141154560 2015-01-30 13:57:26.583384 BABY 10 day prediction in db!
+ERROR 2015-01-30 13:57:26,589 views 19181 139891141154560 2015-01-30 13:57:26.589197 BABY predict control error!
+INFO 2015-01-30 13:57:44,838 views 19181 139891141154560 2015-01-30 13:57:44.838596 BABY request predict
+INFO 2015-01-30 13:57:44,848 views 19181 139891141154560 2015-01-30 13:57:44.848850 BABY 10 day prediction in db!
+ERROR 2015-01-30 13:57:44,853 views 19181 139891141154560 2015-01-30 13:57:44.853413 BABY predict control error!
+INFO 2015-01-30 13:58:00,925 views 19181 139891165902592 2015-01-30 13:58:00.925571 BABY request predict
+INFO 2015-01-30 13:58:00,930 views 19181 139891165902592 2015-01-30 13:58:00.930635 BABY 10 day prediction in db!
+ERROR 2015-01-30 13:58:00,934 views 19181 139891165902592 2015-01-30 13:58:00.934622 BABY predict control error!
+INFO 2015-01-30 13:58:04,252 views 19181 139891149547264 2015-01-30 13:58:04.252119 BABA request predict
+INFO 2015-01-30 13:58:04,258 views 19181 139891149547264 2015-01-30 13:58:04.258011 BABA 10 day prediction in db!
+INFO 2015-01-30 13:58:12,316 views 19181 139891149547264 2015-01-30 13:58:12.316302 BABY request predict
+INFO 2015-01-30 13:58:12,321 views 19181 139891149547264 2015-01-30 13:58:12.321756 BABY 10 day prediction in db!
+ERROR 2015-01-30 13:58:12,324 views 19181 139891149547264 2015-01-30 13:58:12.324359 BABY predict control error!
+INFO 2015-01-30 13:59:22,765 views 19490 140396659042048 2015-01-30 13:59:22.765844 BABY request predict
+INFO 2015-01-30 13:59:22,772 views 19490 140396659042048 2015-01-30 13:59:22.772014 BABY 10 day prediction in db!
+ERROR 2015-01-30 13:59:22,774 views 19490 140396659042048 2015-01-30 13:59:22.774613 BABY predict control error!
+INFO 2015-01-30 13:59:39,728 views 19490 140396566931200 2015-01-30 13:59:39.728201 BABY request predict
+INFO 2015-01-30 13:59:39,736 views 19490 140396566931200 2015-01-30 13:59:39.736502 BABY 10 day prediction in db!
+ERROR 2015-01-30 13:59:39,740 views 19490 140396566931200 2015-01-30 13:59:39.740377 BABY predict control error!
+INFO 2015-01-30 13:59:43,530 views 19490 140396575323904 2015-01-30 13:59:43.530167 BABY request predict
+INFO 2015-01-30 13:59:43,536 views 19490 140396575323904 2015-01-30 13:59:43.536580 BABY 10 day prediction in db!
+ERROR 2015-01-30 13:59:43,539 views 19490 140396575323904 2015-01-30 13:59:43.539616 BABY predict control error!
+INFO 2015-01-30 13:59:47,385 views 19490 140396549883648 2015-01-30 13:59:47.385422 BABA request predict
+INFO 2015-01-30 13:59:47,392 views 19490 140396549883648 2015-01-30 13:59:47.392299 BABA 10 day prediction in db!
+INFO 2015-01-30 13:59:52,772 views 19490 140396549883648 2015-01-30 13:59:52.772157 BABY request predict
+INFO 2015-01-30 13:59:52,779 views 19490 140396549883648 2015-01-30 13:59:52.779745 BABY 10 day prediction in db!
+ERROR 2015-01-30 13:59:52,782 views 19490 140396549883648 2015-01-30 13:59:52.782805 BABY predict control error!
+INFO 2015-01-30 14:02:18,843 views 19801 140385801168640 2015-01-30 14:02:18.843651 [BABY] request predict
+INFO 2015-01-30 14:02:18,850 views 19801 140385801168640 2015-01-30 14:02:18.850443 [BABY] 10 day prediction in db!
+ERROR 2015-01-30 14:02:18,853 base 19801 140385801168640 Internal Server Error: /stockPrediction/BABY
+Traceback (most recent call last):
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 407, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 404, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/tyan/project/StockPredict/BACK/predictCenter/views.py", line 95, in get
+    return Response(serializer.data, status=status.HTTP_201_CREATED)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/serializers.py", line 463, in data
+    ret = super(Serializer, self).data
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/serializers.py", line 212, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/serializers.py", line 432, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/fields.py", line 701, in to_representation
+    return float(value)
+ValueError: invalid literal for float(): 2001-07-31
+INFO 2015-01-30 14:03:04,672 views 19889 140077081855744 2015-01-30 14:03:04.672590 [BABY] request predict
+INFO 2015-01-30 14:03:04,683 views 19889 140077081855744 2015-01-30 14:03:04.682988 [BABY] 10 day prediction in db!
+ERROR 2015-01-30 14:03:04,687 base 19889 140077081855744 Internal Server Error: /stockPrediction/BABY
+Traceback (most recent call last):
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 407, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 404, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/tyan/project/StockPredict/BACK/predictCenter/views.py", line 95, in get
+    print serializer.data
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/serializers.py", line 463, in data
+    ret = super(Serializer, self).data
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/serializers.py", line 212, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/serializers.py", line 432, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/fields.py", line 701, in to_representation
+    return float(value)
+ValueError: invalid literal for float(): 2001-07-31
+INFO 2015-01-30 14:03:33,968 views 19949 139698423072512 2015-01-30 14:03:33.968539 [BABY] request predict
+INFO 2015-01-30 14:03:33,975 views 19949 139698423072512 2015-01-30 14:03:33.975427 [BABY] 10 day prediction in db!
+ERROR 2015-01-30 14:03:33,978 base 19949 139698423072512 Internal Server Error: /stockPrediction/BABY
+Traceback (most recent call last):
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 407, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 404, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/tyan/project/StockPredict/BACK/predictCenter/views.py", line 96, in get
+    return Response(serializer.data, status=status.HTTP_201_CREATED)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/serializers.py", line 463, in data
+    ret = super(Serializer, self).data
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/serializers.py", line 212, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/serializers.py", line 432, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/fields.py", line 701, in to_representation
+    return float(value)
+ValueError: invalid literal for float(): 2001-07-31
+INFO 2015-01-30 14:03:38,396 views 19949 139698423072512 2015-01-30 14:03:38.396849 [BABY] request predict
+INFO 2015-01-30 14:03:38,403 views 19949 139698423072512 2015-01-30 14:03:38.403410 [BABY] 10 day prediction in db!
+ERROR 2015-01-30 14:03:38,406 base 19949 139698423072512 Internal Server Error: /stockPrediction/BABY
+Traceback (most recent call last):
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 407, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 404, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/tyan/project/StockPredict/BACK/predictCenter/views.py", line 96, in get
+    return Response(serializer.data, status=status.HTTP_201_CREATED)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/serializers.py", line 463, in data
+    ret = super(Serializer, self).data
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/serializers.py", line 212, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/serializers.py", line 432, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/fields.py", line 701, in to_representation
+    return float(value)
+ValueError: invalid literal for float(): 2001-07-31
+INFO 2015-01-30 14:08:20,191 views 20441 139646607886080 2015-01-30 14:08:20.191722 [BABY] request predict
+INFO 2015-01-30 14:08:20,198 views 20441 139646607886080 2015-01-30 14:08:20.198096 [BABY] 10 day prediction in db!
+INFO 2015-01-30 14:46:27,612 views 27036 140433007986432 2015-01-30 14:46:27.612338 [BABA] request predict
+INFO 2015-01-30 14:46:27,618 views 27036 140433007986432 2015-01-30 14:46:27.618522 [BABA] 10 day prediction in db!
+INFO 2015-01-30 14:46:33,624 views 27036 140433007986432 2015-01-30 14:46:33.623936 [BABY] request predict
+INFO 2015-01-30 14:46:33,629 views 27036 140433007986432 2015-01-30 14:46:33.629081 [BABY] prepare to predict
+INFO 2015-01-30 14:46:42,180 views 27036 140433007986432 2015-01-30 14:46:42.180767 [BABY] request predict
+INFO 2015-01-30 14:46:42,185 views 27036 140433007986432 2015-01-30 14:46:42.185671 [BABY] predict is alreadly in queue!
+INFO 2015-01-30 14:47:54,404 views 27036 140432982451968 2015-01-30 14:47:54.404113 [BABY] request predict
+INFO 2015-01-30 14:47:54,409 views 27036 140432982451968 2015-01-30 14:47:54.409265 [BABY] predict is alreadly in queue!
+INFO 2015-01-30 14:51:29,062 views 27036 140432974059264 2015-01-30 14:51:29.062797 [BABY] request predict
+INFO 2015-01-30 14:51:29,067 views 27036 140432974059264 2015-01-30 14:51:29.067409 [BABY] predict is alreadly in queue!
+INFO 2015-01-30 14:51:34,982 views 27036 140433007986432 2015-01-30 14:51:34.982520 [BABY] request predict
+INFO 2015-01-30 14:51:34,987 views 27036 140433007986432 2015-01-30 14:51:34.987531 [BABY] prepare to predict
+ERROR 2015-01-30 14:51:37,333 tasks 27208 139735827629824 2015-01-30 14:51:37.333728 BABY predict Error!
+INFO 2015-01-30 14:52:20,052 views 27036 140432974059264 2015-01-30 14:52:20.052898 [BABY] request predict
+INFO 2015-01-30 14:52:20,058 views 27036 140432974059264 2015-01-30 14:52:20.058437 [BABY] predict is alreadly in queue!
+INFO 2015-01-30 14:58:14,994 views 27751 139751076374272 2015-01-30 14:58:14.994288 [BABY] request predict
+INFO 2015-01-30 14:58:14,999 views 27751 139751076374272 2015-01-30 14:58:14.999386 [BABY] prepare to predict
+ERROR 2015-01-30 14:59:17,446 tasks 27207 139735827629824 2015-01-30 14:59:17.446143 BABY predict Error!
+INFO 2015-01-30 15:01:57,778 views 27751 139750979659520 2015-01-30 15:01:57.777920 [BABY] request predict
+INFO 2015-01-30 15:01:57,783 views 27751 139750979659520 2015-01-30 15:01:57.783925 [BABY] predict is alreadly in queue!
+INFO 2015-01-30 15:02:33,549 views 27751 139750971266816 2015-01-30 15:02:33.549663 [BABY] request predict
+INFO 2015-01-30 15:02:33,558 views 27751 139750971266816 2015-01-30 15:02:33.558679 [BABY] predict is alreadly in queue!
+INFO 2015-01-30 15:03:12,778 views 28763 139678754559744 2015-01-30 15:03:12.778588 [BABY] request predict
+INFO 2015-01-30 15:03:12,783 views 28763 139678754559744 2015-01-30 15:03:12.783579 [BABY] predict is alreadly in queue!
+INFO 2015-01-30 15:03:44,093 views 28763 139678367868672 2015-01-30 15:03:44.093772 [BABY] request predict
+INFO 2015-01-30 15:03:44,099 views 28763 139678367868672 2015-01-30 15:03:44.099427 [BABY] prepare to predict
+INFO 2015-01-30 15:03:46,391 tasks 28732 139817837815552 2015-01-30 15:03:46.391750 BABY retry predict at 1st time!
+ERROR 2015-01-30 15:03:48,712 tasks 28732 139817837815552 2015-01-30 15:03:48.712135 BABYretry predict Error!
+WARNING 2015-01-30 15:03:48,712 tasks 28732 139817837815552 2015-01-30 15:03:48.712834 BABY predict Error! and try to retry!
+INFO 2015-01-30 15:28:10,768 views 29013 140292938319616 2015-01-30 15:28:10.768291 [BABY] request predict
+INFO 2015-01-30 15:28:10,773 views 29013 140292938319616 2015-01-30 15:28:10.773464 [BABY] prepare to predict
+WARNING 2015-01-30 15:29:13,269 tasks 31663 139942927300352 2015-01-30 15:29:13.269684 BABY predict Error! and try to retry!
+INFO 2015-01-30 15:29:13,270 tasks 31663 139942927300352 2015-01-30 15:29:13.270823 BABY retry predict at 1st time!
+ERROR 2015-01-30 15:29:15,630 tasks 31663 139942927300352 2015-01-30 15:29:15.630057 BABYretry predict Error!
+INFO 2015-01-30 15:41:47,251 views 31922 139724043376384 2015-01-30 15:41:47.251009 [BABY] request predict
+INFO 2015-01-30 15:41:47,257 views 31922 139724043376384 2015-01-30 15:41:47.257358 [BABY] prepare to predict
+WARNING 2015-01-30 15:42:49,558 tasks 31662 139942927300352 2015-01-30 15:42:49.558743 BABY predict Error! and try to retry!
+INFO 2015-01-30 15:42:49,559 tasks 31662 139942927300352 2015-01-30 15:42:49.559592 BABY retry predict at 1st time!
+ERROR 2015-01-30 15:42:51,814 tasks 31662 139942927300352 2015-01-30 15:42:51.814382 BABYretry predict Error!
+WARNING 2015-01-31 16:05:07,880 base 5484 140675172673280 Not Found: /
+WARNING 2015-01-31 16:05:07,977 base 5484 140675172673280 Not Found: /favicon.ico
+WARNING 2015-01-31 16:05:08,085 base 5484 140675172673280 Not Found: /favicon.ico
+ERROR 2015-01-31 16:05:11,161 base 5484 140675172673280 Internal Server Error: /userStock/
+Traceback (most recent call last):
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 407, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 404, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/tyan/project/StockPredict/BACK/predictCenter/views.py", line 47, in get
+    userStocks = UserStock.objects.filter(user=request.user)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/db/models/manager.py", line 92, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/db/models/query.py", line 691, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/db/models/query.py", line 709, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1331, in add_q
+    clause, require_inner = self._add_q(where_part, self.used_aliases)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1358, in _add_q
+    current_negated=current_negated, connector=connector)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1225, in build_filter
+    lookups, value)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/db/models/fields/related.py", line 1558, in get_lookup_constraint
+    lookup_class(Col(alias, target, source), val), AND)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/db/models/lookups.py", line 82, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/db/models/lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_lookup(self.lookup_name, self.rhs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 646, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 915, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string or a number, not 'AnonymousUser'
+ERROR 2015-01-31 16:06:35,804 base 13398 139875148728064 Internal Server Error: /userStock/
+Traceback (most recent call last):
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 407, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 404, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/tyan/project/StockPredict/BACK/predictCenter/views.py", line 46, in get
+    userStocks = UserStock.objects.filter(user=request.user)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/db/models/manager.py", line 92, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/db/models/query.py", line 691, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/db/models/query.py", line 709, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1331, in add_q
+    clause, require_inner = self._add_q(where_part, self.used_aliases)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1358, in _add_q
+    current_negated=current_negated, connector=connector)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1225, in build_filter
+    lookups, value)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/db/models/fields/related.py", line 1558, in get_lookup_constraint
+    lookup_class(Col(alias, target, source), val), AND)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/db/models/lookups.py", line 82, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/db/models/lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_lookup(self.lookup_name, self.rhs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 646, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 915, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string or a number, not 'AnonymousUser'
+ERROR 2015-01-31 16:53:53,950 base 23116 139863617070848 Internal Server Error: /userStock/1
+Traceback (most recent call last):
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 407, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 404, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/generics.py", line 354, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/mixins.py", line 54, in retrieve
+    instance = self.get_object()
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/generics.py", line 229, in get_object
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/generics.py", line 212, in get_queryset
+    % self.__class__.__name__
+AssertionError: 'UserStockDetail' should either include a `queryset` attribute, or override the `get_queryset()` method.
+ERROR 2015-01-31 16:54:37,386 base 5530 140234037655296 Internal Server Error: /userStock/1
+Traceback (most recent call last):
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 407, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 404, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/generics.py", line 354, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/mixins.py", line 55, in retrieve
+    serializer = self.get_serializer(instance)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/generics.py", line 87, in get_serializer
+    serializer_class = self.get_serializer_class()
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/generics.py", line 189, in get_serializer_class
+    % self.__class__.__name__
+AssertionError: 'UserStockDetail' should either include a `serializer_class` attribute, or override the `get_serializer_class()` method.
+ERROR 2015-01-31 16:54:38,994 base 5530 140234037655296 Internal Server Error: /userStock/1
+Traceback (most recent call last):
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 407, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 404, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/generics.py", line 354, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/mixins.py", line 55, in retrieve
+    serializer = self.get_serializer(instance)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/generics.py", line 87, in get_serializer
+    serializer_class = self.get_serializer_class()
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/generics.py", line 189, in get_serializer_class
+    % self.__class__.__name__
+AssertionError: 'UserStockDetail' should either include a `serializer_class` attribute, or override the `get_serializer_class()` method.
+ERROR 2015-01-31 16:54:39,365 base 5530 140234037655296 Internal Server Error: /userStock/1
+Traceback (most recent call last):
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 407, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 404, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/generics.py", line 354, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/mixins.py", line 55, in retrieve
+    serializer = self.get_serializer(instance)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/generics.py", line 87, in get_serializer
+    serializer_class = self.get_serializer_class()
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/generics.py", line 189, in get_serializer_class
+    % self.__class__.__name__
+AssertionError: 'UserStockDetail' should either include a `serializer_class` attribute, or override the `get_serializer_class()` method.
+INFO 2015-01-31 17:03:49,438 views 6336 139659975972608 2015-01-31 17:03:49.438376 [BABA] request predict
+INFO 2015-01-31 17:03:49,442 views 6336 139659975972608 2015-01-31 17:03:49.442529 [BABA] prepare to predict
+ERROR 2015-01-31 17:10:11,805 tasks 6384 140391049574144 2015-01-31 17:10:11.805235 BABA predict output Error!
+ERROR 2015-01-31 17:10:11,806 tasks 6384 140391049574144 2015-01-31 17:10:11.806173 BABA predict Error!
+INFO 2015-01-31 18:49:41,668 views 10340 140453077837568 2015-01-31 18:49:41.668668 [BABA] request predict
+INFO 2015-01-31 18:49:41,672 views 10340 140453077837568 2015-01-31 18:49:41.672036 [BABA] prepare to predict
+ERROR 2015-01-31 18:50:52,474 tasks 10368 140559070832384 2015-01-31 18:50:52.474229 BABA predict output Error!
+ERROR 2015-01-31 18:50:52,475 tasks 10368 140559070832384 2015-01-31 18:50:52.475030 BABA predict Error!
+INFO 2015-01-31 18:51:56,902 views 10340 140453077837568 2015-01-31 18:51:56.902607 [BABA] request predict
+INFO 2015-01-31 18:51:56,906 views 10340 140453077837568 2015-01-31 18:51:56.906930 [BABA] prepare to predict
+ERROR 2015-01-31 18:52:58,514 tasks 10369 140559070832384 2015-01-31 18:52:58.514323 BABA predict output Error!
+ERROR 2015-01-31 18:52:58,515 tasks 10369 140559070832384 2015-01-31 18:52:58.515224 BABA predict Error!
+INFO 2015-01-31 18:54:24,080 views 10547 140346700977920 2015-01-31 18:54:24.080696 [BABA] request predict
+INFO 2015-01-31 18:54:24,083 views 10547 140346700977920 2015-01-31 18:54:24.083878 [BABA] prepare to predict
+ERROR 2015-01-31 18:54:25,641 tasks 10367 140559070832384 2015-01-31 18:54:25.640909 BABA predict output Error!
+ERROR 2015-01-31 18:54:25,641 tasks 10367 140559070832384 2015-01-31 18:54:25.641693 BABA predict Error!
+INFO 2015-01-31 18:55:05,040 views 10586 139664650417920 2015-01-31 18:55:05.040457 [BABA] request predict
+INFO 2015-01-31 18:55:05,043 views 10586 139664650417920 2015-01-31 18:55:05.043629 [BABA] prepare to predict
+INFO 2015-01-31 18:55:10,814 tasks 10626 140637318768384 2015-01-31 18:55:10.814508 BABA predict R output: ['']
+ERROR 2015-01-31 18:55:10,815 tasks 10626 140637318768384 2015-01-31 18:55:10.815575 BABA predict output Error!
+ERROR 2015-01-31 18:55:10,816 tasks 10626 140637318768384 2015-01-31 18:55:10.816065 BABA predict Error!
+INFO 2015-01-31 18:55:15,387 views 10586 139664650417920 2015-01-31 18:55:15.387286 [BABA] request predict
+INFO 2015-01-31 18:55:15,391 views 10586 139664650417920 2015-01-31 18:55:15.391731 [BABA] prepare to predict
+INFO 2015-01-31 18:55:16,958 tasks 10667 139682412570368 2015-01-31 18:55:16.958304 BABA predict R output: ['time', 'series', 'starts', '2014-09-19\n', '', '', '', '', 'Open', 'High', 'Low', 'Close', 'Volume', 'AdjClose\n[1]', '-0.7870457\n[1]', '89.08\n']
+ERROR 2015-01-31 18:55:16,959 tasks 10667 139682412570368 2015-01-31 18:55:16.959121 BABA predict output Error!
+ERROR 2015-01-31 18:55:16,959 tasks 10667 139682412570368 2015-01-31 18:55:16.959462 BABA predict Error!
+INFO 2015-01-31 18:55:46,234 views 10708 140700660999936 2015-01-31 18:55:46.234315 [BABA] request predict
+INFO 2015-01-31 18:55:46,237 views 10708 140700660999936 2015-01-31 18:55:46.237520 [BABA] prepare to predict
+INFO 2015-01-31 18:55:47,860 tasks 10669 139682412570368 2015-01-31 18:55:47.860470 BABA predict R output: ['time', 'series', 'starts', '2014-09-19\n', '', '', '', '', 'Open', 'High', 'Low', 'Close', 'Volume', 'AdjClose\n[1]', '-0.5280913\n[1]', '89.08\n']
+ERROR 2015-01-31 18:55:47,861 tasks 10669 139682412570368 2015-01-31 18:55:47.861283 BABA predict output Error!
+ERROR 2015-01-31 18:55:47,861 tasks 10669 139682412570368 2015-01-31 18:55:47.861565 BABA predict Error!
+INFO 2015-01-31 18:58:05,391 views 10768 140513487525632 2015-01-31 18:58:05.391445 [BABA] request predict
+INFO 2015-01-31 18:58:05,394 views 10768 140513487525632 2015-01-31 18:58:05.394643 [BABA] prepare to predict
+INFO 2015-01-31 18:58:12,024 tasks 10818 139849445598976 2015-01-31 18:58:12.023868 BABA predict R output: ['']
+ERROR 2015-01-31 18:58:12,024 tasks 10818 139849445598976 2015-01-31 18:58:12.024909 BABA predict output Error!
+ERROR 2015-01-31 18:58:12,025 tasks 10818 139849445598976 2015-01-31 18:58:12.025200 BABA predict Error!
+INFO 2015-01-31 18:58:15,657 views 10768 140513380816640 2015-01-31 18:58:15.657692 [BABA] request predict
+INFO 2015-01-31 18:58:15,661 views 10768 140513380816640 2015-01-31 18:58:15.661382 [BABA] prepare to predict
+INFO 2015-01-31 18:58:17,634 tasks 10858 140516792014592 2015-01-31 18:58:17.634138 BABA predict R output: ['time', 'series', 'starts', '2014-09-19\n', '', '', '', '', 'Open', 'High', 'Low', 'Close', 'Volume', 'AdjClose\n[1]', '-1.313354\n[1]', '89.08\n']
+INFO 2015-01-31 18:58:17,635 tasks 10858 140516792014592 2015-01-31 18:58:17.635336 BABA predict T = -1.313354
+INFO 2015-01-31 18:58:18,256 tasks 10858 140516792014592 2015-01-31 18:58:18.256671 BABA stockP save success!
+INFO 2015-01-31 18:58:18,554 tasks 10858 140516792014592 2015-01-31 18:58:18.554085 BABA preJudge save success!
+INFO 2015-01-31 18:58:18,574 tasks 10858 140516792014592 2015-01-31 18:58:18.574823 BABA predict success!
+WARNING 2015-01-31 21:47:54,111 base 27528 139646458607360 Not Found: /spstats
+WARNING 2015-01-31 21:47:55,918 base 27528 139646458607360 Not Found: /spstat
+WARNING 2015-01-31 21:48:08,931 base 27528 139646458607360 Not Found: /ststat/1
+WARNING 2015-01-31 21:48:29,909 base 27528 139646458607360 Not Found: /spstat/1
+WARNING 2015-01-31 21:48:31,968 base 27528 139646458607360 Not Found: /spstat/1
+WARNING 2015-01-31 22:21:57,398 base 27586 140279526881024 Not Found: /
+WARNING 2015-01-31 22:21:57,482 base 27586 140279526881024 Not Found: /favicon.ico
+WARNING 2015-01-31 22:21:57,492 base 27586 140279526881024 Not Found: /favicon.ico
+WARNING 2015-01-31 22:48:24,412 base 27586 140279618053888 Not Found: /web
+WARNING 2015-01-31 23:25:45,804 base 27586 140279535273728 Not Found: /accounts/profile/
+WARNING 2015-01-31 23:25:45,837 base 27586 140279618053888 Not Found: /userInfo/undefined/
+ERROR 2015-01-31 23:25:58,672 base 27586 140279618053888 Internal Server Error: /userInfo/1/
+Traceback (most recent call last):
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 407, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 404, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/generics.py", line 278, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/mixins.py", line 54, in retrieve
+    instance = self.get_object()
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/generics.py", line 245, in get_object
+    self.check_object_permissions(self.request, obj)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 291, in check_object_permissions
+    if not permission.has_object_permission(request, self, obj):
+  File "/home/tyan/project/StockPredict/BACK/userSys/permissions.py", line 20, in has_object_permission
+    return obj.user == request.user
+AttributeError: 'User' object has no attribute 'user'
+ERROR 2015-01-31 23:26:49,208 base 27586 140279618053888 Internal Server Error: /userInfo/1/
+Traceback (most recent call last):
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 407, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 404, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/generics.py", line 278, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/mixins.py", line 54, in retrieve
+    instance = self.get_object()
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/generics.py", line 245, in get_object
+    self.check_object_permissions(self.request, obj)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 291, in check_object_permissions
+    if not permission.has_object_permission(request, self, obj):
+  File "/home/tyan/project/StockPredict/BACK/userSys/permissions.py", line 20, in has_object_permission
+    return obj.user == request.user
+AttributeError: 'User' object has no attribute 'user'
+ERROR 2015-01-31 23:32:08,949 base 27586 140279618053888 Internal Server Error: /userInfo/1/
+Traceback (most recent call last):
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 407, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 404, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/generics.py", line 278, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/mixins.py", line 54, in retrieve
+    instance = self.get_object()
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/generics.py", line 245, in get_object
+    self.check_object_permissions(self.request, obj)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 291, in check_object_permissions
+    if not permission.has_object_permission(request, self, obj):
+  File "/home/tyan/project/StockPredict/BACK/userSys/permissions.py", line 20, in has_object_permission
+    return obj.user == request.user
+AttributeError: 'User' object has no attribute 'user'
+WARNING 2015-02-01 09:38:40,324 base 15537 139876718147328 Not Found: /bower_components/bootstrap/dist/css/bootstrap.css
+WARNING 2015-02-01 09:38:40,325 base 15537 139876701099776 Not Found: /bower_components/angular/angular.js
+WARNING 2015-02-01 09:38:40,325 base 15537 139876692707072 Not Found: /bower_components/bootstrap/dist/js/bootstrap.js
+WARNING 2015-02-01 09:38:40,325 base 15537 139876709754624 Not Found: /bower_components/jquery/dist/jquery.js
+WARNING 2015-02-01 09:38:40,325 base 15537 139876347410176 Not Found: /bower_components/angular-cookies/angular-cookies.js
+WARNING 2015-02-01 09:38:40,325 base 15537 139876339017472 Not Found: /bower_components/angular-resource/angular-resource.js
+WARNING 2015-02-01 09:38:40,400 base 15537 139876718147328 Not Found: /bower_components/angular-route/angular-route.js
+WARNING 2015-02-01 09:38:40,420 base 15537 139876701099776 Not Found: /bower_components/angular-sanitize/angular-sanitize.js
+WARNING 2015-02-01 09:38:40,433 base 15537 139876339017472 Not Found: /bower_components/angular/angular.js
+WARNING 2015-02-01 09:38:40,542 base 15537 139876339017472 Not Found: /bower_components/bootstrap/dist/js/bootstrap.js
+WARNING 2015-02-01 09:38:40,554 base 15537 139876339017472 Not Found: /bower_components/angular-cookies/angular-cookies.js
+WARNING 2015-02-01 09:38:40,567 base 15537 139876339017472 Not Found: /bower_components/angular-resource/angular-resource.js
+WARNING 2015-02-01 09:38:40,581 base 15537 139876339017472 Not Found: /bower_components/angular-route/angular-route.js
+WARNING 2015-02-01 09:38:40,595 base 15537 139876339017472 Not Found: /bower_components/angular-sanitize/angular-sanitize.js
+WARNING 2015-02-01 09:38:40,620 base 15537 139876339017472 Not Found: /favicon.ico
+WARNING 2015-02-01 09:38:57,139 base 15537 139876339017472 Not Found: /bower_components/bootstrap/dist/css/bootstrap.css
+WARNING 2015-02-01 09:38:57,149 base 15537 139876701099776 Not Found: /bower_components/jquery/dist/jquery.js
+WARNING 2015-02-01 09:38:57,168 base 15537 139876701099776 Not Found: /bower_components/angular/angular.js
+WARNING 2015-02-01 09:38:57,178 base 15537 139876339017472 Not Found: /bower_components/bootstrap/dist/js/bootstrap.js
+WARNING 2015-02-01 09:38:57,189 base 15537 139876718147328 Not Found: /bower_components/angular-cookies/angular-cookies.js
+WARNING 2015-02-01 09:38:57,201 base 15537 139876709754624 Not Found: /bower_components/angular-resource/angular-resource.js
+WARNING 2015-02-01 09:38:57,203 base 15537 139876339017472 Not Found: /bower_components/angular-route/angular-route.js
+WARNING 2015-02-01 09:38:57,214 base 15537 139876701099776 Not Found: /bower_components/angular-sanitize/angular-sanitize.js
+WARNING 2015-02-01 09:38:57,237 base 15537 139876701099776 Not Found: /bower_components/angular/angular.js
+WARNING 2015-02-01 09:38:57,289 base 15537 139876701099776 Not Found: /bower_components/bootstrap/dist/js/bootstrap.js
+WARNING 2015-02-01 09:38:57,305 base 15537 139876701099776 Not Found: /bower_components/angular-cookies/angular-cookies.js
+WARNING 2015-02-01 09:38:57,384 base 15537 139876701099776 Not Found: /bower_components/angular-resource/angular-resource.js
+WARNING 2015-02-01 09:38:57,402 base 15537 139876701099776 Not Found: /bower_components/angular-route/angular-route.js
+WARNING 2015-02-01 09:38:57,416 base 15537 139876701099776 Not Found: /bower_components/angular-sanitize/angular-sanitize.js
+WARNING 2015-02-01 09:39:01,167 base 15537 139876701099776 Not Found: /bower_components/bootstrap/dist/css/bootstrap.css
+WARNING 2015-02-01 09:39:01,176 base 15537 139876701099776 Not Found: /bower_components/jquery/dist/jquery.js
+WARNING 2015-02-01 09:39:01,188 base 15537 139876339017472 Not Found: /bower_components/angular/angular.js
+WARNING 2015-02-01 09:39:01,201 base 15537 139876718147328 Not Found: /bower_components/angular-cookies/angular-cookies.js
+WARNING 2015-02-01 09:39:01,202 base 15537 139876709754624 Not Found: /bower_components/bootstrap/dist/js/bootstrap.js
+WARNING 2015-02-01 09:39:01,215 base 15537 139876701099776 Not Found: /bower_components/angular-resource/angular-resource.js
+WARNING 2015-02-01 09:39:01,230 base 15537 139876347410176 Not Found: /bower_components/angular-route/angular-route.js
+WARNING 2015-02-01 09:39:01,241 base 15537 139876339017472 Not Found: /bower_components/angular-sanitize/angular-sanitize.js
+WARNING 2015-02-01 09:39:01,442 base 15537 139876339017472 Not Found: /bower_components/angular/angular.js
+WARNING 2015-02-01 09:39:01,547 base 15537 139876339017472 Not Found: /bower_components/bootstrap/dist/js/bootstrap.js
+WARNING 2015-02-01 09:39:01,607 base 15537 139876339017472 Not Found: /bower_components/angular-cookies/angular-cookies.js
+WARNING 2015-02-01 09:39:01,685 base 15537 139876339017472 Not Found: /bower_components/angular-resource/angular-resource.js
+WARNING 2015-02-01 09:39:01,727 base 15537 139876339017472 Not Found: /bower_components/angular-route/angular-route.js
+WARNING 2015-02-01 09:39:01,764 base 15537 139876339017472 Not Found: /bower_components/angular-sanitize/angular-sanitize.js
+ERROR 2015-02-01 09:40:39,749 base 15537 139876339017472 Internal Server Error: /userInfo/1/
+Traceback (most recent call last):
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 407, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 404, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/generics.py", line 278, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/mixins.py", line 54, in retrieve
+    instance = self.get_object()
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/generics.py", line 245, in get_object
+    self.check_object_permissions(self.request, obj)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 291, in check_object_permissions
+    if not permission.has_object_permission(request, self, obj):
+  File "/home/tyan/project/StockPredict/BACK/userSys/permissions.py", line 20, in has_object_permission
+    return obj.user == request.user
+AttributeError: 'User' object has no attribute 'user'
+ERROR 2015-02-01 09:40:48,082 base 15537 139876339017472 Internal Server Error: /userInfo/1/
+Traceback (most recent call last):
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 407, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 404, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/generics.py", line 278, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/mixins.py", line 54, in retrieve
+    instance = self.get_object()
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/generics.py", line 245, in get_object
+    self.check_object_permissions(self.request, obj)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 291, in check_object_permissions
+    if not permission.has_object_permission(request, self, obj):
+  File "/home/tyan/project/StockPredict/BACK/userSys/permissions.py", line 20, in has_object_permission
+    return obj.user == request.user
+AttributeError: 'User' object has no attribute 'user'
+WARNING 2015-02-01 09:55:42,898 base 15537 139876339017472 Not Found: /userInfo
+ERROR 2015-02-01 09:56:13,812 base 15537 139876339017472 Internal Server Error: /userInfo/1/
+Traceback (most recent call last):
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 407, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 404, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/generics.py", line 278, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/mixins.py", line 54, in retrieve
+    instance = self.get_object()
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/generics.py", line 245, in get_object
+    self.check_object_permissions(self.request, obj)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 291, in check_object_permissions
+    if not permission.has_object_permission(request, self, obj):
+  File "/home/tyan/project/StockPredict/BACK/userSys/permissions.py", line 20, in has_object_permission
+    return obj.user == request.user
+AttributeError: 'User' object has no attribute 'user'
+ERROR 2015-02-01 09:56:36,310 base 20876 140041335277312 Internal Server Error: /userInfo/
+Traceback (most recent call last):
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 407, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 404, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/generics.py", line 278, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/mixins.py", line 54, in retrieve
+    instance = self.get_object()
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/generics.py", line 238, in get_object
+    (self.__class__.__name__, lookup_url_kwarg)
+AssertionError: Expected view UserInfoDetail to be called with a URL keyword argument named "pk". Fix your URL conf, or set the `.lookup_field` attribute on the view correctly.
+ERROR 2015-02-01 10:16:48,235 base 9550 140610019936000 Internal Server Error: /userInfo/
+Traceback (most recent call last):
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/core/handlers/base.py", line 98, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/core/urlresolvers.py", line 343, in resolve
+    for pattern in self.url_patterns:
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/core/urlresolvers.py", line 372, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/tyan/project/StockPredict/BACK/stockPredict/urls.py", line 36, in <module>
+    url(r'^userInfo/$', USviews.UserInfoSerializer.as_view()),
+AttributeError: type object 'UserInfoSerializer' has no attribute 'as_view'
+ERROR 2015-02-01 10:18:15,180 base 9784 140193342351104 Internal Server Error: /userInfo/
+Traceback (most recent call last):
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 407, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 404, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/tyan/project/StockPredict/BACK/userSys/views.py", line 26, in get
+    return Response(serializer.data)
+NameError: global name 'serializer' is not defined
+ERROR 2015-02-01 10:18:17,185 base 9784 140193342351104 Internal Server Error: /userInfo/
+Traceback (most recent call last):
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 407, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 404, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/tyan/project/StockPredict/BACK/userSys/views.py", line 26, in get
+    return Response(serializer.data)
+NameError: global name 'serializer' is not defined
+ERROR 2015-02-01 10:18:27,273 base 9922 139879699703552 Internal Server Error: /userInfo/
+Traceback (most recent call last):
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 407, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 404, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/tyan/project/StockPredict/BACK/userSys/views.py", line 26, in get
+    return Response(serializer.data)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/serializers.py", line 463, in data
+    ret = super(Serializer, self).data
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/serializers.py", line 212, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/serializers.py", line 423, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/fields.py", line 306, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `user` on serializer `UserInfoSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `User` instance.
+Original exception text was: 'User' object has no attribute 'user'.
+ERROR 2015-02-01 10:20:17,808 base 9994 140405647795968 Internal Server Error: /userInfo/
+Traceback (most recent call last):
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 407, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 404, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/tyan/project/StockPredict/BACK/userSys/views.py", line 28, in get
+    return Response(serializer.data)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/serializers.py", line 463, in data
+    ret = super(Serializer, self).data
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/serializers.py", line 212, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/serializers.py", line 423, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/fields.py", line 306, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `user` on serializer `UserInfoSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `User` instance.
+Original exception text was: 'User' object has no attribute 'user'.
+ERROR 2015-02-01 10:20:19,962 base 9994 140405647795968 Internal Server Error: /userInfo/
+Traceback (most recent call last):
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 407, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/views.py", line 404, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/tyan/project/StockPredict/BACK/userSys/views.py", line 28, in get
+    return Response(serializer.data)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/serializers.py", line 463, in data
+    ret = super(Serializer, self).data
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/serializers.py", line 212, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/serializers.py", line 423, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/tyan/project/stENv/lib/python2.7/site-packages/rest_framework/fields.py", line 306, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `user` on serializer `UserInfoSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `User` instance.
+Original exception text was: 'User' object has no attribute 'user'.
+WARNING 2015-02-01 10:46:13,632 base 10825 139880038397696 Not Found: /stockPrediction/BABA/
+INFO 2015-02-01 10:46:46,096 views 10825 139880038397696 2015-02-01 10:46:46.096209 [BABA] request predict
+INFO 2015-02-01 10:46:46,102 views 10825 139880038397696 2015-02-01 10:46:46.102362 Prepare predict BABA
+WARNING 2015-02-01 10:47:19,973 base 10825 139880038397696 Not Found: /stockPrediction/undefined/
+WARNING 2015-02-01 10:47:24,688 base 10825 139880038397696 Not Found: /stockPrediction/BABA/
+WARNING 2015-02-01 10:47:39,335 base 10825 139880038397696 Not Found: /stockPrediction/BABA/
+INFO 2015-02-01 10:47:59,365 views 10825 139880038397696 2015-02-01 10:47:59.365234 [BABA] request predict
+INFO 2015-02-01 10:47:59,371 views 10825 139880038397696 2015-02-01 10:47:59.371825 [BABA] predict is alreadly in queue!
+WARNING 2015-02-01 10:48:03,885 base 10825 139880038397696 Not Found: /stockPrediction/BABA/
+INFO 2015-02-01 10:48:23,585 views 10825 139880038397696 2015-02-01 10:48:23.585593 [BABA] request predict
+INFO 2015-02-01 10:48:23,590 views 10825 139880038397696 2015-02-01 10:48:23.590748 [BABA] predict is alreadly in queue!
+INFO 2015-02-01 10:54:55,104 views 10825 139880038397696 2015-02-01 10:54:55.103973 [BABA] request predict
+INFO 2015-02-01 10:54:55,108 views 10825 139880038397696 2015-02-01 10:54:55.108750 Prepare predict BABA
+INFO 2015-02-01 10:55:03,941 views 10825 139880038397696 2015-02-01 10:55:03.941046 [BABA] request predict
+INFO 2015-02-01 10:55:03,948 views 10825 139880038397696 2015-02-01 10:55:03.948578 [BABA] predict is alreadly in queue!
+INFO 2015-02-01 10:55:06,552 views 10825 139880038397696 2015-02-01 10:55:06.552865 [BABA] request predict
+INFO 2015-02-01 10:55:06,559 views 10825 139880038397696 2015-02-01 10:55:06.559421 [BABA] predict is alreadly in queue!
+INFO 2015-02-01 10:55:24,053 views 10825 139880038397696 2015-02-01 10:55:24.053555 [BABA] request predict
+INFO 2015-02-01 10:55:24,059 views 10825 139880038397696 2015-02-01 10:55:24.058951 [BABA] predict is alreadly in queue!
+INFO 2015-02-01 10:56:16,941 views 10825 139880038397696 2015-02-01 10:56:16.941340 [BABA] request predict
+INFO 2015-02-01 10:56:16,946 views 10825 139880038397696 2015-02-01 10:56:16.946575 [BABA] predict is alreadly in queue!
+INFO 2015-02-01 10:56:27,939 views 10825 139880038397696 2015-02-01 10:56:27.939334 [BABA] request predict
+INFO 2015-02-01 10:56:27,944 views 10825 139880038397696 2015-02-01 10:56:27.944710 [BABA] predict is alreadly in queue!
+INFO 2015-02-01 10:57:04,118 views 10825 139880038397696 2015-02-01 10:57:04.118662 [BABA] request predict
+INFO 2015-02-01 10:57:04,123 views 10825 139880038397696 2015-02-01 10:57:04.123510 [BABA] predict is alreadly in queue!
+INFO 2015-02-01 12:32:59,350 views 24660 140639157081856 2015-02-01 12:32:59.350314 [BABA] request predict
+INFO 2015-02-01 12:32:59,356 views 24660 140639157081856 2015-02-01 12:32:59.356520 Prepare predict BABA
+INFO 2015-02-01 12:33:21,581 tasks 27015 140119910655744 2015-02-01 12:33:21.581211 BABA predict R output: ['time', 'series', 'starts', '2014-09-19\ntime', 'series', 'ends', '', '', '2015-01-30\n', '', '', '', '', 'Open', 'High', 'Low', 'Close', 'Volume', 'AdjClose\n[1]', '-0.4497247\n[1]', '89.08\n']
+ERROR 2015-02-01 12:33:21,582 tasks 27015 140119910655744 2015-02-01 12:33:21.582394 BABA predict output Error!
+ERROR 2015-02-01 12:33:21,583 tasks 27015 140119910655744 2015-02-01 12:33:21.583002 BABA predict Error!
+INFO 2015-02-01 12:33:21,599 tasks 27017 140119910655744 2015-02-01 12:33:21.599475 BABA predict R output: ['time', 'series', 'starts', '2014-09-19\ntime', 'series', 'ends', '', '', '2015-01-30\n', '', '', '', '', 'Open', 'High', 'Low', 'Close', 'Volume', 'AdjClose\n[1]', '-1.270973\n[1]', '89.08\n']
+ERROR 2015-02-01 12:33:21,600 tasks 27017 140119910655744 2015-02-01 12:33:21.600370 BABA predict output Error!
+ERROR 2015-02-01 12:33:21,600 tasks 27017 140119910655744 2015-02-01 12:33:21.600781 BABA predict Error!
+INFO 2015-02-01 12:33:21,603 tasks 27014 140119910655744 2015-02-01 12:33:21.603439 BABA predict R output: ['time', 'series', 'starts', '2014-09-19\ntime', 'series', 'ends', '', '', '2015-01-30\n', '', '', '', '', 'Open', 'High', 'Low', 'Close', 'Volume', 'AdjClose\n[1]', '-0.902755\n[1]', '89.08\n']
+ERROR 2015-02-01 12:33:21,604 tasks 27014 140119910655744 2015-02-01 12:33:21.604346 BABA predict output Error!
+ERROR 2015-02-01 12:33:21,605 tasks 27014 140119910655744 2015-02-01 12:33:21.604966 BABA predict Error!
+INFO 2015-02-01 12:36:07,982 views 27296 139918214944512 2015-02-01 12:36:07.982891 [BABA] request predict
+INFO 2015-02-01 12:36:07,987 views 27296 139918214944512 2015-02-01 12:36:07.987369 Prepare predict BABA
+INFO 2015-02-01 12:36:15,544 tasks 27319 140377245701888 2015-02-01 12:36:15.544629 BABA predict R output: ['time', 'series', 'starts', '2014-09-19\ntime', 'series', 'ends', '', '', '2015-01-30\n', '', '', '', '', 'Open', 'High', 'Low', 'Close', 'Volume', 'AdjClose\n[1]', '-1.058286\n[1]', '89.08\n']
+INFO 2015-02-01 12:36:15,545 tasks 27319 140377245701888 2015-02-01 12:36:15.545839 BABA predict T = -1.058286
+INFO 2015-02-01 12:36:15,687 tasks 27319 140377245701888 2015-02-01 12:36:15.687368 BABA stockP save success!
+INFO 2015-02-01 12:36:16,292 tasks 27319 140377245701888 2015-02-01 12:36:16.292504 BABA preJudge save success!
+INFO 2015-02-01 12:36:16,301 tasks 27319 140377245701888 2015-02-01 12:36:16.301678 BABA predict success!
+INFO 2015-02-01 12:36:27,615 views 27348 140490952775424 2015-02-01 12:36:27.615691 [BABA] request predict
+INFO 2015-02-01 12:36:27,620 views 27348 140490952775424 2015-02-01 12:36:27.620488 [BABA] 10 day prediction in db!
+INFO 2015-02-01 12:36:44,660 views 27348 140490952775424 2015-02-01 12:36:44.660702 [BABA] request predict
+INFO 2015-02-01 12:36:44,665 views 27348 140490952775424 2015-02-01 12:36:44.665846 [BABA] 10 day prediction in db!
+INFO 2015-02-01 12:37:21,082 views 27348 140490952775424 2015-02-01 12:37:21.082475 [BABA] request predict
+INFO 2015-02-01 12:37:21,087 views 27348 140490952775424 2015-02-01 12:37:21.087285 [BABA] 10 day prediction in db!
+INFO 2015-02-01 12:43:23,550 views 27348 140490952775424 2015-02-01 12:43:23.550087 [BABA] request predict
+INFO 2015-02-01 12:43:23,556 views 27348 140490952775424 2015-02-01 12:43:23.556149 [BABA] 10 day prediction in db!
+WARNING 2015-02-01 12:44:55,632 base 27348 140490952775424 Not Found: /favicon.ico
+WARNING 2015-02-01 12:44:55,661 base 27348 140490952775424 Not Found: /favicon.ico
+WARNING 2015-02-01 12:45:17,768 base 27348 140490952775424 Not Found: /accounts/profile/
+WARNING 2015-02-01 12:49:38,695 base 27348 140490938783488 Not Found: /favicon.ico
+WARNING 2015-02-01 12:49:38,743 base 27348 140490938783488 Not Found: /favicon.ico
+INFO 2015-02-01 12:51:58,374 views 27348 140490938783488 2015-02-01 12:51:58.374486 [BABA] request predict
+INFO 2015-02-01 12:51:58,380 views 27348 140490938783488 2015-02-01 12:51:58.380794 [BABA] 10 day prediction in db!
+INFO 2015-02-01 12:52:24,346 views 27348 140490938783488 2015-02-01 12:52:24.346297 [BABY] request predict
+INFO 2015-02-01 12:52:24,347 views 27348 140490938783488 2015-02-01 12:52:24.347867 [BABY] error input!
+INFO 2015-02-01 12:52:27,319 views 27348 140490938783488 2015-02-01 12:52:27.319253 [BABY] request predict
+INFO 2015-02-01 12:52:27,321 views 27348 140490938783488 2015-02-01 12:52:27.321618 [BABY] error input!
+INFO 2015-02-01 12:52:34,093 views 27348 140490938783488 2015-02-01 12:52:34.093406 [Y] request predict
+INFO 2015-02-01 12:52:34,155 views 27348 140490938783488 2015-02-01 12:52:34.155650 [Y] prepare to predict
+INFO 2015-02-01 12:52:57,207 views 27348 140490938783488 2015-02-01 12:52:57.207291 [BABA] request predict
+INFO 2015-02-01 12:52:57,212 views 27348 140490938783488 2015-02-01 12:52:57.212398 [BABA] 10 day prediction in db!
+INFO 2015-02-01 12:55:21,216 views 27348 140490938783488 2015-02-01 12:55:21.216753 [BABA] request predict
+INFO 2015-02-01 12:55:21,221 views 27348 140490938783488 2015-02-01 12:55:21.221749 [BABA] 10 day prediction in db!
