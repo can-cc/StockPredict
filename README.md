@@ -1,0 +1,1 @@
+#Stock trend prediction system
